@@ -1,0 +1,80 @@
+.header__toolbar {
+    padding: 15px 0;
+    text-align: center;
+}
+.header__toolbar img {
+    height: 55px;
+}
+.d-none {
+    display: none !important;
+}
+.d-inline-flex {
+    display: inline-flex !important;
+}
+@media screen and (min-width: 768px) {
+    .d-md-none {
+        display: none !important;
+    }
+    .d-md-inline-block {
+        display: inline-block !important;
+    }
+    .d-md-inline-flex {
+        display: inline-flex !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .pdftoolbar button {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .pdftoolbar button.myButton {
+        width: 100%;
+        justify-content: flex-start;
+        font-size: 12px;
+    }
+    .pdftoolbar button.myButton i {
+        margin-right: 0;
+    }
+    .dropdown-content button.button {
+        width: 100%;
+        font-size: 12px;
+        justify-content: flex-start;
+        padding: 0 9px;
+    }
+    .dropdown-content button.button i {
+        padding-right: 8px;
+        color: #000000;
+        font-size: 16px;
+    }
+    .pdftoolbar .dropdown-content a {
+        font-size: 12px;
+    }
+    .pdftoolbar .dropdown-content i {
+        padding-right: 8px !important;
+        color: #000000 !important;
+        font-size: 16px !important;
+    }
+    input.pageno  {
+        width: 35px;
+    }
+    .pdftoolbar .dropdown-value, input.pageno {
+        padding: 0 5px 0;
+    }
+    span.pageno {
+        display: none;
+    }
+    .header__toolbar {
+        padding-top: 10px;
+        padding-bottom: 0;  
+    }
+    .header__toolbar img {
+        margin-bottom: 10px;
+    }
+    .header__toolbar .pdftoolbar {
+        height: 40px;
+    }
+    .header__toolbar .pdftoolbar button.myButton i {
+        margin-right: 6px;
+    }
+}
